@@ -1,0 +1,87 @@
+.hidden {
+    display: none;
+}
+
+.section {
+    margin: 10%;
+    padding: 2%;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px #888;
+}
+
+#availableItems li {
+    margin-bottom: 10px;
+}
+
+#userCart li {
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-left: 25px;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    margin-left: 25px;
+
+}
+
+.cartButton:hover {
+    opacity: 0.8;
+}
+
+#totalAmount {
+    font-size: 24px;
+}
+
+.container-margin {
+    margin-top: 0px;
+}
+
+.section {
+    width: 100%;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 270px;
+    height: 100%;
+    background-color: #f2f2f2;
+    transition: right 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
+    z-index: 999;
+}
+
+#toggle-sidebar {
+    position: fixed;
+    top: 10px;
+    right: 40px;
+    z-index: 1000;
+}
+
+.slide-in {
+    right: 0;
+}
+
+.slide-out {
+    right: -250px;
+}
+
+.auth-form {
+    width: 8.2vw
+}
+
+.form-fills {
+    width: 82%
+}
+
+body {
+    background-image: url('https://cdn.winsightmedia.com/platform/files/public/2023-02/background/fresh-hero7.gif?VersionId=EBXt0NwsB1.6GlCzqr6krovRSHWDM_JV');
+}
